@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYUSH GUNJAL | Photography Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <footer class="social-footer">
+        <div class="social-icons">
+            <a href="https://youtube.com/@ayushgunjal4060" target="_blank" class="social-icon">
+                <img src="assets/images/youtube_logo.png" alt="YouTube" width="24">
+            </a>
+            <a href="https://www.instagram.com/_ayush_gunjal_?igsh=czh5emI2a3MzemM3 " target="_blank" class="social-icon">
+                <img src="assets/images/instagram-logo-black-transparent.png" alt="Instagram" width="24">
+            </a>
+            <a href="https://www.threads.net/@_ayush_gunjal_" target="_blank" class="social-icon">
+                <img src="assets/images/threads-logo-png_seeklogo-489791.png" alt="Threads" width="24">
+            </a>
+            <a href="https://x.com/AyushDNYG7447?t=KDS0lPqzsLBsM-JCgg_KRg&s=09" target="_blank" class="social-icon">
+                <img src="assets/images/twitter.png" alt="Twitter" width="24">
+            </a>
+        </div>
+    </footer>
+
+    <header>
+        <nav>
+            <div class="nav-left"></div>
+            <div class="name-center">AYUSH GUNJAL</div>
+            <div class="nav-right">
+                <button class="filter-btn" data-filter="landscape">Landscape</button>
+                <button class="filter-btn" data-filter="festival">Festival</button>
+                <button class="filter-btn" data-filter="product">Product</button>
+                <button class="filter-btn" data-filter="videos">Videos</button>
+                <button class="filter-btn" data-filter="clients">Clients</button>
+                <button class="filter-btn" data-filter="connect">Connect</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery" id="gallery">
+            <!-- Images will be loaded dynamically via JavaScript -->
+        </section>
+
+        <section id="videos" class="hidden">
+            <div class="video-gallery">
+                <!-- Videos will load here via JavaScript -->
+            </div>
+            <div class="youtube-promo">
+                <div class="youtube-container">
+                    <div class="youtube-image">
+                        <img src="assets/images/DSC07213.jpg" alt="My YouTube Channel">
+                    </div>
+                    <div class="youtube-content">
+                        <h3>Watch More on YouTube</h3>
+                        <p>Explore my cinematic photography adventures, tutorials, and behind-the-scenes content.</p>
+                        <a href="https://www.youtube.com/@ayushgunjal4060" target="_blank" class="youtube-link">
+                            <img src="assets/images/youtubelogo.png" alt="YouTube" width="20">
+                            <span>Visit My Channel</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="hidden">
+            <div class="client-container">
+                <div class="client">
+                    <h2 class="client-name">Bites on Wheels</h2>
+                    <img src="assets/images/clients/IMG20250426152311.jpg" alt="Bites on Wheels">
+                    <button class="client-btn">View Work</button>
+                </div>
+                <div class="client">
+                    <h2 class="client-name">De' koffiEstate</h2>
+                    <img src="assets/images/clients/IMG20240629211000 (1).jpg" alt="De' koffiEstate">
+                    <button class="client-btn">View Work</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="hidden">
+            <div class="connect-container">
+                <div class="connect-section">
+                    <h2>Representation</h2>
+                    <div class="connect-divider"></div>
+                    <div class="connect-info">
+                        <h3>Ayush Gunjal</h3>
+                        <p>Spacestation Management</p>
+                        <p>ayushgunjal5474@gmail.com</p>
+                        <p>7447547494</p>
+                    </div>
+                </div>
+
+                <form class="connect-form">
+                    <div class="form-group">
+                        <label>Purpose of email (required)</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="purpose" value="business" required> Business Inquiries</label>
+                            <label><input type="radio" name="purpose" value="booking"> Booking & Schedule</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Name (required)</label>
+                        <div class="name-fields">
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>ayush</label>
+                        <input type="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message (All Spam Will Be Ignored) (required)</label>
+                        <textarea required></textarea>
+                    </div>
+
+                    <button type="submit" class="connect-submit">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
