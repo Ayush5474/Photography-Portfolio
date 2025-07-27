@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'assets/images/product/IMG20231127104756-01.jpg', category: 'product', alt: 'Product 1' },
         { src: 'assets/images/product/IMG20231121111642-01.jpg', category: 'product', alt: 'Product 2' },
         { src: 'assets/images/product/IMG_9365.jpg', category: 'product', alt: 'Product 3' },
-        { src: 'assets/images/product/DSC07106.JPG', category: 'product', alt: 'Product 4' },
+        { src: 'assets/images/product/DSC07106.jpg', category: 'product', alt: 'Product 4' },
         { src: 'assets/images/product/IMG_20231104_172836.jpg', category: 'product', alt: 'Product 5' },
         { src: 'assets/images/product/IMG_20230323_171309-01-01.jpg', category: 'product', alt: 'Product 6' },
         { src: 'assets/images/product/IMG20231127104721-01.jpg', category: 'product', alt: 'Product 7' },
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'assets/images/product/IMG20231112192541-01.jpg', category: 'product', alt: 'Product 11' },
         { src: 'assets/images/product/IMG_20211222_151247-01-01.jpg', category: 'product', alt: 'Product 12' },
         { src: 'assets/images/product/IMG_20210215_224933.jpg', category: 'product', alt: 'Product 13' },
-        { src: 'assets/images/product/IMG_7029.JPG', category: 'product', alt: 'Product 14' },
+        { src: 'assets/images/product/IMG_7029.jpg', category: 'product', alt: 'Product 14' },
         { src: 'assets/images/product/1617906316881-01.jpg', category: 'product', alt: 'Product 15' },
         
         // Videos
