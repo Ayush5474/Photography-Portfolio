@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'assets/images/product/IMG_20230323_171309-01-01.jpg', category: 'product', alt: 'Product 6' },
         { src: 'assets/images/product/IMG20231127104721-01.jpg', category: 'product', alt: 'Product 7' },
         { src: 'assets/images/product/IMG20231127104652-01.jpg', category: 'product', alt: 'Product 8' },
-        { src: 'assets/images/product/IMG20240109114349-01.JPG', category: 'product', alt: 'Product 9' },
+        { src: 'assets/images/product/IMG20240109114349-01.jpg', category: 'product', alt: 'Product 9' },
         { src: 'assets/images/product/IMG20240109113457-01.jpg', category: 'product', alt: 'Product 10' },
         { src: 'assets/images/product/IMG20231112192541-01.jpg', category: 'product', alt: 'Product 11' },
         { src: 'assets/images/product/IMG_20211222_151247-01-01.jpg', category: 'product', alt: 'Product 12' },
